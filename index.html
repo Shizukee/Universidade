@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidade Atividade</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header id="Cabecalho">
+    <span id="BotaoMenu" class="material-icons md-48" onclick="controlarMenu()"> ☰ </span>
+    <nav id="MenuNavegacao">
+        <ul>
+        
+            <li><a href="index.html">Início</a></li>
+            <li><a href="#AreaGraduacao">Graduação</a></li>
+            <li><a href="#AreaPosGrad">Pós Graduação</a></li>
+            <li><a href="">Unidades</a></li>
+            <li><a href="">Eventos</a></li>
+            <li id="Fechar"><span id="BotaoFechar" class="material-icons" onclick="controlarMenu()"> Fechar </span></li>
+        </ul>
+    </nav>
+
+    <h1><img id="Logo" src="img/logo.svg" alt="Logo do Site"></h1>
+</header>
+
+<main>
+
+    <section id="Banner">
+        <img src="img/banner.jpg" alt="Uma sala de reunião com um mulher explicando algo num quadro.">
+    </section>
+
+    <section id="AreaGraduacao">
+
+        <h2>Graduação</h2>
+        <h3>Cursos em destaque</h3>
+
+        <section class="PainelArtigos">
+
+            
+        <a class="LinkArtigo" href="#">
+            <article class="ArtigoCurso">
+                <h4>Ciências da Computação</h4>
+                <img src="img/grad-computacao.jpg" alt="Um homem utilizando computador escrevendo códigos.">
+                <div class="Descricao">
+                    <p>Nível: Bacharelado</p>
+                    <p>Duração: 4 anos</p>
+                    <a href="#">Conheça o curso clicando aqui</a>
+                </div>
+                
+            </article>
+        </a>
+           
+
+        <a class="LinkArtigo" href="#">
+            <article class="ArtigoCurso">
+                <h4>Marketing</h4>
+                <img src="img/grad-marketing.jpg" alt="Um grupo de pessoas discutindo em reunião.">
+                <div class="Descricao">
+                    <p>Nível: Tecnológico</p>
+                    <p>Duração: 3 anos</p>
+                    <a href="">Conheça o curso clicando aqui</a>
+                </div>                
+            </article>
+        </a>
+
+        <a class="LinkArtigo" href="#">
+            <article class="ArtigoCurso">
+                <h4>Recursos Humanos</h4>
+                <img src="img/grad-rh.jpg" alt="Um grupo de pessoas discutindo sobre documentos em uma mesa.">
+                <div class="Descricao">
+                    <p>Nível: Tecnológico</p>
+                    <p>Duração: 3 anos</p>
+                    <a href="#">Conheça o curso clicando aqui</a>
+                 </div>
+            </article>
+        </a>
+
+        <a class="LinkArtigo" href="#">
+            <article class="ArtigoCurso">
+                <h4>Pedagogia</h4>
+                <img src="img/grad-pedagogia.jpg" alt="Uma mulher explicando como utilizar um globo terrestre.">
+                <div class="Descricao">
+                    <p>Nível: Licenciatura</p>
+                    <p>Duração: 3 anos</p>
+                    <a href="#">Conheça o curso clicando aqui</a>
+                </div>
+            </article>
+        </a>
+
+            
+        </section>
+        <a href="#">Clique aqui para conhecer o portifólio completo de cursos de Graduação.</a>
+
+    </section>
+
+    <section id="AreaPosGrad">
+
+        <h2>Pós Graduação</h2>
+        <h3>Cursos em destaque</h3>
+
+        <section class="PainelArtigos">
+            <a class="LinkArtigo" href="#">
+                <article class="ArtigoCurso">
+                    <h4>Ciência de Dados</h4>
+                    <img src="img/pos-data.jpg" alt=" Um homem utilizando computador escrevendo códigos.">
+                    <div class="Descricao">
+                    <p>Área: Tecnologia da Informação</p>
+                    <p>Duração: 12 meses</p>
+                    <a href="#">Conheça o curso clicando aqui</a>
+                    </div>
+                </article>
+            </a>
+
+            <a class="LinkArtigo" href="#">
+                <article class="ArtigoCurso">
+                    <h4>Engenharia Web</h4>
+                    <img src="img/pos-web.jpg" alt=" Um homem utilizando computador escrevendo códigos.">
+                    <div class="Descricao">
+                        <p>Área: Tecnologia da Informação</p>
+                        <p>Duração: 12 meses</p>
+                        <a href="#">Conheça o curso clicando aqui</a>
+                    </div>
+                </article>
+            </a>
+            
+            <a class="LinkArtigo" href="#">
+                <article class="ArtigoCurso">
+                    <h4>Marketing Digital</h4>
+                    <img src="img/pos-digital.jpg" alt=" Uma mulher escrevendo em um caderno e um notebook.">
+                    <div class="Descricao">
+                        <p>Área: Marketing</p>
+                        <p>Duração: 12 meses</p>
+                        <a href="#">Conheça o curso clicando aqui</a>
+                    </div>
+                </article>
+            </a>
+            
+            <a class="LinkArtigo" href="#">
+                <article class="ArtigoCurso">
+                    <h4>Alfabetização</h4>
+                    <img src="img/pos-letramento.jpg" alt=" Uma professora explicando algo para crianças.">
+                    <div class="Descricao">
+                        <p>Área: Educação</p>
+                        <p>Duração: 12 meses</p>
+                        <a href="#">Conheça o curso clicando aqui</a>
+                    </div>
+                </article>
+            </a>
+                        
+        </section>
+        <a href="#">Clique aqui para conhecer o portifólio completo de cursos de Pós Graduação.</a>
+
+    </section>
+
+    </main>
+
+    <footer>
+        <div id="ImgFooter">
+            <img src="img/logo-branco.svg" alt="">
+        </div>
+
+        <div id="Info">
+            <ul>
+                <li><a href="">Unidades</a></li>
+                <li><a href="">Sobre nós</a></li>
+                <li><a href="">Fale conosco</a></li>
+                <li><a href="">Trabalhe conosco</a></li>
+            </ul>
+        </div>
+        
+
+        <div class="Contatos">
+            <p>Encontre-nos nas redes sociais</p>
+            <div>
+                <a href=""><img src="img/icones/facebook.svg" alt="facebook"></a>
+                <a href=""><img src="img/icones/instagram.svg" alt="instagram"></a>
+                <a href=""><img src="img/icones/youtube.svg" alt="youtube"></a>
+                <a href=""><img src="img/icones/linkedin.svg" alt="linkedin"></a>
+            </div>
+            
+        </div>
+
+        <div class="Criador">
+            <p>Feito por Rafael Mattos Dos Santos</p>
+        </div>
+       
+    </footer>
+
+    <script>
+        function controlarMenu(){
+
+            if (MenuNavegacao.style.display == 'none'){
+                MenuNavegacao.style.display = 'flex'
+                BotaoMenu.style.display = 'none'
+            }
+            else{
+                MenuNavegacao.style.display = 'none'
+                BotaoMenu.style.display = 'block'
+                Cabecalho.style.justifyContent = 'flex-end'
+            }
+            
+        }
+    </script>
+
+</body>
+</html>
